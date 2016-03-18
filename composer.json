@@ -1,0 +1,19 @@
+{
+  "name": "locomotivemtl/gravityforms",
+  "description": "Fork of Gravity Forms repository for Composer usage.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.1-dev"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "gravityforms"
+  }
+}
